@@ -1,0 +1,271 @@
+{
+	"info": {
+		"_postman_id": "044f1874-3e18-4c2f-af46-eb53374f4277",
+		"name": "HW_ 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28149167",
+		"_collection_link": "https://grey-satellite-407439.postman.co/workspace/9e3fed0a-89c5-41e7-b3c0-6a1951719a1d/collection/28149167-044f1874-3e18-4c2f-af46-eb53374f4277?action=share&creator=28149167&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "get_method",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{url}}/get_method?name=Graf&age=28",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Graf"
+						},
+						{
+							"key": "age",
+							"value": "28"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object info 1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{url}}/object_info_1?name=Graf&age=28&weight=77",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Graf"
+						},
+						{
+							"key": "age",
+							"value": "28"
+						},
+						{
+							"key": "weight",
+							"value": "77"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object info 2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{url}}/object_info_2?name=Graf&age=28&salary=25000",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Graf"
+						},
+						{
+							"key": "age",
+							"value": "28"
+						},
+						{
+							"key": "salary",
+							"value": "25000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object info 3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{url}}/object_info_3?name=Graf&age=28&salary=25000",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Graf"
+						},
+						{
+							"key": "age",
+							"value": "28"
+						},
+						{
+							"key": "salary",
+							"value": "25000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object info 4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{url}}/object_info_4?name=Graf&age=28&salary=25000",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Graf"
+						},
+						{
+							"key": "age",
+							"value": "28"
+						},
+						{
+							"key": "salary",
+							"value": "25000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user_info 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "28",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Graf",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "25000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/user_info_2",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user info 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "28",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Graf",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "25000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/user_info_3",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user_info_3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
